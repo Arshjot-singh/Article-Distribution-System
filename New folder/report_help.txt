@@ -1,0 +1,46 @@
+langchain documentation - https://python.langchain.com/docs/integrations/document_loaders/
+
+with_structured_output (3 types)- Typed dict
+                                - Pydantic
+                                - Json_schema
+
+Output Parsers (4 types)- Str Output Parser
+                        - JSON Output Parser
+                        - Structured Output Parser
+                        - Pydantic Output Parser
+
+Chains 
+
+Runnables- all runnables important.
+
+RAG- Document Loaders
+   - Text Splitters
+   - Vector Databases
+   - Retrievers
+
+document loaders- TextLoader
+                - PyPDFLoader
+                - WebBaseLoader
+                - CSVLoader
+                - PDFPlumberLoader  for tables/columns
+                - DirectoryLoader  to load multiple pdfs 
+
+Lazy load function
+
+Text Splitters- Length based 
+              - Text Structure based
+              - Document Structured based
+              - Semantic Meaning based 
+
+Vector Stores see FAISS()
+
+Retrievers- WikiPedia
+          - Vector Store
+          - Maximum Marginal Relevance
+          - Multi Query 
+          - Contextual Compression
+
+Tools (for custom function for ai agents)- using @tool decorator
+                                         - using StructuredTool & Pydantic
+                                         - Using BaseTool class
+
